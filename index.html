@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Bank</title>
+    <link rel="shortcut icon" href="image/money-bill-transfer-solid.svg" type="image/x-icon">
+    <!-- google font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- daisyUL link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-md min-h-screen mx-auto py-6 bg-gray-200">
+    <header>
+            <nav class="flex justify-center items-center mt-6">
+                <div class="mt-24 relative flex justify-center items-center w-9/12 mb-10">
+                    <img class="w-48 absolute" src="image/Rectangle 1.png" alt="">
+                    <img class="w-16" src="image/Group (1).png" alt="">
+                </div>
+            </nav> 
+            <!-- login form -->
+            <div >
+                <div class="hero-content flex-col">
+                  <div class="text-center lg:text-left">
+                    <h1 class="text-5xl font-bold text-blue-500">Login now!</h1>
+                    <p class="py-6">Transport bank service availabe. So, login your account and enjoy the benifits! create by Ratul Islam
+                    </p>
+                  </div>
+                  <div class="card w-full max-w-sm shrink-0 shadow-2xl">
+                    <form class="card-body">
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="label-text">Mobile Number</span>
+                        </label>
+                        <input id="number" value="01323242526" type="number" placeholder="Enter your number" class="input input-bordered bg-white rounded-3xl" required />
+                      </div>
+                      <div class="form-control">
+                        <label class="label">
+                          <span class="">Password</span>
+                        </label>
+                        <input id="password" value="1234" type="text" placeholder="Enter your password" class="input input-bordered bg-white rounded-3xl" required />
+                        <label class="label">
+                          <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                        </label>
+                      </div>
+                      <div class="form-control mt-6">
+                        <button id="login-btn" class="btn btn-primary rounded-3xl">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+    </header>
+    <script src="script/login.js"></script>
+    <script src="script/toggle.js"></script>
+</body>
+</html>
